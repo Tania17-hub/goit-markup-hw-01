@@ -1,21 +1,7 @@
-body
-{ font-family: "Roboto", sans-serif;
-  font-weight: 700;
-  width: 1440px;
-  height: 3300px;
+body {
+   font-family: "Roboto", sans-serif;
   background: #fff; 
-  color: #434455;
-  text-decoration: none;
-  position:relative;
-  left:auto;
-  top:auto;
-  box-sizing:border-box; 
-  display: flexbox; 
-  align-items:center;
-  padding:0%;
-  flex-direction:row;
-  border-radius:0%;
-  box-shadow:0%;}
+  color: #434455;}
 header {
     display: flex;
     justify-content: space-between;
@@ -28,9 +14,7 @@ header {
 .logo{ 
       font-family: "Raleway", sans-serif;
       font-weight: 700;
-      font-size: 18px;
-       /* line-height: 21px; */ 
-      line-height: 1.16667;
+      font-size: 18px; line-height: 1.16667;
       letter-spacing: 0.03em;
       text-transform: uppercase;
       margin-left: 156px;}
@@ -40,48 +24,44 @@ header {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #2e2f42;
-  }
-  .studio:hover{ color:#404bbf;  }
-  .studio:focus{
-   color:#404bbf;
-  }
+    letter-spacing: 0.02em;  }
+  .studios{ color: #2e2f42; }
+  .studios:hover{ color:#404bbf;  }
+  .studios:focus{ color:#404bbf;  }
   .port{
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #2e2f42;
-  }
-  .port:hover{color:#404bbf;  }
-   .port:focus{color:#404bbf;  }
+    letter-spacing: 0.02em;  }
+  .ports{ color: #2e2f42;  }
+  .ports:hover{color:#404bbf;  }
+   .ports:focus{color:#404bbf;  }
   .contact{
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #2e2f42;
-  }
-.contact:hover{ color:#404bbf;}
-.contact:focus{ color:#404bbf;}
-
+    letter-spacing: 0.02em;   }
+.contacts{  color: #2e2f42; }
+.contacts:hover{ color:#404bbf;}
+.contacts:focus{ color:#404bbf;}
+.address{
+  font-style: normal;}
 .mail{
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
 }
-.mail:hover{ color:#404bbf;}
-.mail:focus{ color:#404bbf;}
+.mails:hover{ color:#404bbf;}
+.mails:focus{ color:#404bbf;}
 .tel{
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
 }
-.tel:hover{ color:#404bbf;}
-.tel:focus{ color:#404bbf;}
+.tels:hover{ color:#404bbf;}
+.tels:focus{ color:#404bbf;}
 
 .effective {
   text-align: center;
@@ -121,12 +101,15 @@ button:focus{
     padding: 40px 20px;
     justify-content: space-around; 
     align-items: flex-start;
-    font-family: "Roboto", sans-serif;
-font-weight: 400;
-font-size: 16px;
-
-/* line-height: 24px; */ 
-line-height: 1.5;
+    font-family: "Roboto", sans-serif;}
+ .featuress {font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42 ;}
+  .feat{font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
 letter-spacing: 0.02em;
 color: #434455;  
   }
@@ -134,11 +117,13 @@ color: #434455;
     text-align: center;
     justify-content: space-around;
     flex-wrap: wrap;
-    background: #f4f4fd;}
+    background: #f4f4fd;    }
   .list-our{
       font-size: 36px;
       line-height: 1.11;
-      letter-spacing: 0.02em;}
+      letter-spacing: 0.02em;
+      text-transform: capitalize;
+    color: #2e2f42;}
       .list-our-team{
         background-color: #FFFFFF; 
         border-radius: 0 0 4px 4px;
@@ -160,24 +145,25 @@ color: #434455;
           color: #434455;    }
  .portfolio{ 
   text-align: center;
-    justify-content: space-around;
-    flex-wrap: wrap; }
+      justify-content: space-around;
+          flex-wrap: wrap; }
        .ourport {
       font-size: 36px;
       line-height: 1.11;
-      letter-spacing: 0.02em;}
+      letter-spacing: 0.02em;
+      text-transform: capitalize;
+      color: #2e2f42;}
       .list-portfolio{
         width: 360px;
-height: 420px;
-background: #fff;
-      }
-footer {
+        height: 420px;
+        background: #fff;      }
+.footer {
 background-color:#2e2f42 ;
 color: #fff;
 width: 1440px;
 height: 312px;
 text-transform: uppercase; }
-   footer.logo{ 
+   .footer-logo{ 
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
