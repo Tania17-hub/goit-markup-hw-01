@@ -16,27 +16,12 @@ body {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;}
-   .studios{color: #2e2f42;}
+   .studios {color: #2e2f42;}
   .studios:hover{ color:#404bbf;  }
-  .studios:focus{ color:#404bbf;  }
-  .port{
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;}  
-    ports{color: #2e2f42;}  
-  .ports:hover{color:#404bbf;  }
-  .ports:focus{color:#404bbf;  }
-  .contact{
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;}
-.contacts{color: #2e2f42; }
-.contacts:hover{ color:#404bbf;}
-.contacts:focus{ color:#404bbf;}
-.address{
-  font-style: normal;}
+  .studios:focus{ color:#404bbf; }
+  .address{
+  font-style: normal;
+  color: #434455;}
 .mail{
   font-size: 16px;
   line-height: 1.5;
@@ -44,13 +29,6 @@ body {
  .mails{color: #434455;}
 .mails:hover{ color:#404bbf;}
 .mails:focus{ color:#404bbf;}
-.tel{
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;}
-  .tels{color: #434455; }
-.tels:hover{ color:#404bbf;}
-.tels:focus{ color:#404bbf;}
 .effective {
   text-align: center;
     background-color:#2e2f42;
