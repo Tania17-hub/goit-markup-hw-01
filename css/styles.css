@@ -16,7 +16,7 @@ body {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #2e2f42 }
+    color: #2e2f42; }
   .studios:hover{ color:#404bbf;  }
   .studios:focus{ color:#404bbf;  }
   .port{
@@ -24,7 +24,7 @@ body {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;  
-    color: #2e2f42  }
+    color: #2e2f42;  }
   .ports:hover{color:#404bbf;  }
   .ports:focus{color:#404bbf;  }
   .contact{
@@ -32,7 +32,7 @@ body {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #2e2f42 }
+    color: #2e2f42; }
 .contacts:hover{ color:#404bbf;}
 .contacts:focus{ color:#404bbf;}
 .address{
@@ -41,7 +41,7 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #434455 ;}
+  color: #434455;}
 .mails:hover{ color:#404bbf;}
 .mails:focus{ color:#404bbf;}
 .tel{
@@ -53,7 +53,7 @@ body {
 .tels:focus{ color:#404bbf;}
 .effective {
   text-align: center;
-    background-color:#2e2f42 ;
+    background-color:#2e2f42;
     color: #fff;
     font-weight: 700; }
    .effective-text{
