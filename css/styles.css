@@ -1,8 +1,48 @@
 body {
   font-family: "Roboto", sans-serif; 
   color: #434455;
-  background: #fff; }
-.logo{ 
+  background: #fff; 
+  padding-left: 0;
+  padding: 0;
+  margin-left: 0;
+  margin-right: 0; }
+  *,*::before,*::after {  box-sizing: border-box;}
+    a{  text-decoration: none; color: black; }
+    ul{
+      list-style-type:none; 
+      margin: 0; 
+      padding-left: 0;}
+      h1,h2,h3{
+    margin-top: 0;
+    margin-bottom: 0;      }
+      p{ margin: 0; } 
+      section{ padding: 120px 156px;  }
+    img {
+      display: block;
+      max-width: 100%;
+      height: auto;}
+    .container {
+        width: 1158px;
+        padding: 0 15px;
+        margin: 0 auto;
+        height: auto;}
+      .nav-add{
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        gap: 40px;
+        flex-direction: row;
+      }
+    .top{
+      border-bottom: 1px solid #e7e9fc;
+      justify-content: space-between;
+}
+.navigation{
+    display: block;
+    align-items: center;
+    justify-content: flex-start; 
+    }
+.logo{
       font-family: "Raleway", sans-serif;
       font-weight: 700;
       font-size: 18px; 
@@ -11,24 +51,53 @@ body {
       text-transform: uppercase;
       color: #4d5ae5;}
   span.logo-black{ color: #2e2f42 }
-  .studio{
+  .list-studio{
+    border: 1px;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 24px 0;  }
+  .studio{display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: row;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
-    letter-spacing: 0.02em;}
+    letter-spacing: 0.02em;
+    padding-right:24px;}
    .studios {color: #2e2f42;}
   .studios:hover{ color:#404bbf;  }
   .studios:focus{ color:#404bbf; }
-  .address{
+  .list-contact{
+    border: 1px;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start; }
+  .addresss{
   font-style: normal;
-  color: #434455;}
+  color: #434455;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin-left: auto;
+}
 .mail{
+  flex-direction: row;
   font-size: 16px;
   line-height: 1.5;
-  letter-spacing: 0.02em;}
+  letter-spacing: 0.02em; 
+  padding-right:24px;}
  .mails{color: #434455;}
 .mails:hover{ color:#404bbf;}
 .mails:focus{ color:#404bbf;}
+.logo,
+.studio,
+.mail{
+  display: block;
+}
 .effective {
   text-align: center;
     background-color:#2e2f42;
@@ -54,51 +123,113 @@ color: #fff; }
 .button:focus{
   background-color: #404BBF;}
   
- .strategy{
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  color: #2e2f42 ;}
-  .p-strategy{ 
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.5;
+  .feature-list{
+    display: flex;
+    flex-direction: row;
+    gap: 24px;}
+  .list-feature{
+    width: calc((100%-72px)/4);
+    height: 104px; ;
+   }
+   .strategy{
+    margin-bottom: 8px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
     letter-spacing: 0.02em;
-    color: #434455;    }
+    color: #2e2f42 ;}
+    .p-strategy{ 
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 1.5;
+      letter-spacing: 0.02em;
+      color: #434455;    }
 
 .team{ background: #f4f4fd;
   text-transform: capitalize;
-      color: #2e2f42; }
-  .list-our{
+      color: #2e2f42; 
+    }
+    .team-list{
+       border-radius: 0 0 4px 4px;
+        box-sizing: border-box;
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 24px;
+        row-gap: 48px; 
+       }
+      
+        .list-our{
       font-size: 36px;
       line-height: 1.11;
       text-align: center;
       letter-spacing: 0.02em;    }
-      .list-our-team{  background-color: #FFFFFF;        }
-      .list-team {
+      .list-our-team{  
+        background-color: #FFFFFF;   
+        width: 264px;
+        height: 380px;
+        display: block;
+        box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);  
+               }
+      .list-name {
         text-transform: capitalize;
         color: #2e2f42 ;
         font-weight: 500;
         font-size: 20px;
         line-height: 1.2;
-        letter-spacing: 0.02em;    }
+        letter-spacing: 0.02em; 
+        margin: 0;
+        padding: 20px;
+        }
+        .team-conteiner{
+          width: 264px;
+          height: 380px;
+          padding: 32px 16px;
+          border: 1px solid #e7e9fc;
+          border-top: none;
+          text-align: center;
+        }
+
         .profession{
           font-size: 16px;
           line-height: 1.5;
           letter-spacing: 0.02em;
-          color: #434455;  }
-          .ourport {
+          color: #434455; 
+        }
+  .portfolio{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items:flex-start;
+    padding: 120px 0;
+    height: auto;  }
+  .ourport {
       font-size: 36px;
       line-height: 1.11;
       text-align: center;
       letter-spacing: 0.02em;
       text-transform: capitalize;
-      color: #2e2f42;}
+      color: #2e2f42;
+      margin-bottom: 72px;}
       .list-portfolio{
-        background: #fff;      }
+        background: #fff;
+       width: calc((100% - 48px) / 3);    }
+      .list-port{
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 24px;
+        row-gap: 48px; }   
+        .list-app{
+          padding: 32px 16px;
+          border: 1px solid #e7e9fc;
+          border-top: none;
+        }
 .footer {
-background-color:#2e2f42 ;}
+background-color:#2e2f42 ;
+padding: 100px 100px;}
    .footer.logo{ 
     font-family: "Raleway", sans-serif;
     font-weight: 700;
@@ -106,13 +237,15 @@ background-color:#2e2f42 ;}
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color:#4d5ae5 ; }
+    color:#4d5ae5 ;
+    display: inline-block;
+    gap: 0px;
+ margin-bottom: 24px; }
     span.logo-white{ color: #f4f4fd  }
 .text-increase{
   font-family: "Roboto", sans-serif;
   letter-spacing: 0.02em;
   color: #F4F4FD;
-  line-height: 1.5;}
-
-a{  text-decoration: none; color: black; }
-ul{ list-style-type:none;}
+  line-height: 1.5;
+  display: block;
+  max-width: 264px;}
