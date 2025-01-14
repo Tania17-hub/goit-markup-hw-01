@@ -37,10 +37,7 @@ body {
     .top{
       border-bottom: 1px solid #e7e9fc;
       justify-content: space-between;}
-.navigation{
-    display: block;
-    align-items: center;
-    justify-content: flex-start;     }
+
     .list-nav{
       display: flex;
       align-items:center;   }
@@ -146,8 +143,7 @@ margin: 24px auto;}
 .button:focus{
   background-color: #404BBF;}
   /*properties*/
-  .features{
-    padding: 120px 0;  }
+  .features{   padding: 120px 0;  }
   .visually-hidden{
     position: absolute;
     width: 1px;
@@ -158,14 +154,14 @@ margin: 24px auto;}
     white-space: nowrap;
     clip-path: inset(100%);
     clip: rect(0 0 0 0);
-    overflow: hidden;   }
+    overflow: hidden; }
   .feature-list{
     display: flex;
     flex-direction: row;
     gap: 24px;}
   .list-feature{
-    width: calc((100%-72px)/4);
-    height: 104px; ;   }
+    width: calc((100% - 72px) / 4);
+    height: 104px; }
    .strategy{
     margin-bottom: 8px;
     font-weight: 500;
@@ -184,8 +180,7 @@ margin: 24px auto;}
   text-transform: capitalize;
       color: #2e2f42; 
       padding: 120px 0;
-      margin-bottom: 72px; 
-    }
+      margin-bottom: 72px;     }
     .list-our{
       font-size: 36px;
       line-height: 1.11;
@@ -231,23 +226,23 @@ margin: 24px auto;}
         /*Portfolio*/
   .portfolio-section{
     padding-top: 120px; 
-    padding-bottom: 120px; ;
-  }
+    padding-bottom: 120px;  }
   .ourport {
     display: flex;
       font-size: 36px;
       line-height: 1.11;
-      text-align: left;
+      text-align: center;
       letter-spacing: 0.02em;
       text-transform:capitalize;
-      justify-content: left;
-      align-items: flex-start;
+      justify-content: center;
+      align-items: center;
       color: #2e2f42;
-      margin-bottom: 72px;}
-      .list-portfolio{
+      margin-bottom: 72px;        }
+      .list-team{
+        margin-bottom: 8px;}
+         .list-portfolio{
         background: #fff;
-       width: calc((100% - 48px) / 3);  
-        }
+       width: calc((100% - 48px) / 3);          }
       .list-port{
         column-gap: 24px;
         display: flex;
@@ -265,12 +260,12 @@ margin: 24px auto;}
         text-transform: capitalize;
         justify-content: center;
         align-items: center;  
-        padding: 32px 16px 
-        }
+        padding: 32px 16px ;    }
+        /*Footer*/
 .footer {
 background-color:#2e2f42 ;
 padding: 100px 0px;}
-   .footer.logo{ 
+   .logo-footer{ 
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
