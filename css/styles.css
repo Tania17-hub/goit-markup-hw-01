@@ -50,11 +50,9 @@ body {
       text-transform: uppercase;
       color: #4d5ae5;      }
   span.logo-black{ color: #2e2f42 } 
-  .menu{
-    display: flex;
-    gap: 40px;
-  }
+
   .list-studio{
+    gap: 40px;
     border: 1px;
     font-size: 16px;
     display: flex;
@@ -220,7 +218,7 @@ margin: 24px auto;}
           color: #434455; 
           text-align: center;        }
         /*Portfolio*/
-  .portfolio-section{
+  .portfolio-section {
     padding-top: 120px; 
     padding-bottom: 120px;  }
   .ourport {
