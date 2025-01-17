@@ -78,10 +78,10 @@ body {
     align-items: center;
     justify-content: flex-start; }
   .addresss{  
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  display: flex; 
   gap: 40px;
+  justify-content: center;
+  align-items: center;    
   margin-left: auto;}
 .mail{
   font-family: "Roboto", sans-serif;
@@ -94,7 +94,7 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em; 
   padding-right:24px; }
- .mails{color: #434455;}
+.mails{color: #434455;}
 .mails:hover{ color:#404bbf;}
 .mails:focus{ color:#404bbf;}
 .logo,
@@ -170,8 +170,8 @@ margin: 24px auto;}
       letter-spacing: 0.02em;
       color: #434455;    }
 /*Our team*/
-.team{ background: #f4f4fd;
-  text-transform: capitalize;
+.team { background: #f4f4fd;
+      text-transform: capitalize;
       color: #2e2f42; 
       padding: 120px 0;
       margin-bottom: 72px;     }
@@ -218,7 +218,7 @@ margin: 24px auto;}
           color: #434455; 
           text-align: center;        }
         /*Portfolio*/
-  .portfolio-section {
+        .portfolio-section {
     padding-top: 120px; 
     padding-bottom: 120px;  }
   .ourport {
