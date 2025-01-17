@@ -136,7 +136,7 @@ margin: 24px auto;}
 .button:focus{
   background-color: #404BBF;}
   /*properties*/
-  .features{   padding: 120px 0;  }
+  .features{ padding: 120px 0;  }
   .visually-hidden{
     position: absolute;
     width: 1px;
@@ -216,9 +216,7 @@ margin: 24px auto;}
           color: #434455; 
           text-align: center;        }
         /*Portfolio*/
-        .portfolio-section {
-    padding-top: 120px; 
-    padding-bottom: 120px;  }
+        .portfolio-section { padding: 120px 0 120px 0  }
   .ourport {
     display: flex;
       font-size: 36px;
