@@ -216,10 +216,16 @@ margin: 24px auto;}
           color: #434455; 
           text-align: center;        }
         /*Portfolio*/
-        .portfolio-section { padding: 120px 0 120px 0  }
-  .ourport {
+  .portfolio-section {
+    text-transform: capitalize;
+    padding: 120px 0;
+    height: auto;
     display: flex;
-      font-size: 36px;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;  }
+  .ourport {
+     font-size: 36px;
       line-height: 1.11;
       text-align: center;
       letter-spacing: 0.02em;
@@ -228,11 +234,10 @@ margin: 24px auto;}
       align-items: center;
       color: #2e2f42;
       margin-bottom: 72px;        }
-      .list-team{
-        margin-bottom: 8px;}
-         .list-portfolio{
-        background: #fff;
-       width: calc((100% - 48px) / 3);          }
+    .list-team{  margin-bottom: 8px;}
+    .list-portfolio{
+       background: #fff;
+       width: calc((100% - 48px) / 3);  }
       .list-port{
         column-gap: 24px;
         display: flex;
