@@ -33,15 +33,18 @@ body {
         justify-content: flex-start;
         gap: 40px;
         flex-direction: row;  
-        height: 72px;    }
+        height: 72px; }
     .top{
       border-bottom: 1px solid #e7e9fc;
-      justify-content: space-between;}
-
+      justify-content: space-between ; } 
     .list-nav{
-      display: flex;
-      align-items:center;   }
-.logo{
+    display: flex; 
+    gap: 40px; 
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: row;
+    margin-right: 76px;     }
+.black-logo{
       font-family: "Raleway", sans-serif;
       font-weight: 700;
       font-size: 18px; 
@@ -49,21 +52,14 @@ body {
       letter-spacing: 0.03em;
       text-transform: uppercase;
       color: #4d5ae5;
-      margin-right: 76px}
-  span.logo-black{ color: #2e2f42 }
-  .menu{
-    display: flex; 
-    gap: 40px; 
-    align-items: center;
-    justify-content: flex-start;
-    flex-direction: row; }
+      margin-right: 76px;}
+  span.logo-black{ color: #2e2f42 } 
   .list-studio{
     border: 1px;
     font-size: 16px;
     display: flex;
     align-items: center;
-    justify-content: flex-start;
-    padding: 24px 0;  }
+    justify-content: flex-start;}
   .studio{
     align-items: flex-start;
     justify-content: flex-start;
@@ -72,8 +68,9 @@ body {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    padding-right:24px;}
-   .studios {color: #2e2f42;}
+    padding-right: 24px;    }
+   .studios {color: #2e2f42;
+    padding:24px 0;  }
   .studios:hover{ color:#404bbf;  }
   .studios:focus{ color:#404bbf; }
   .list-contact{
@@ -82,19 +79,18 @@ body {
     display: flex;
     align-items: center;
     justify-content: flex-start; }
-  .addresss{
-  
+  .addresss{  
   display: flex;
+  justify-content: center;
   align-items: center;
-  justify-content: flex-start;
-  margin-left: auto;
-}
+  gap: 40px;
+  margin-left: auto;}
 .mail{
   font-family: "Roboto", sans-serif;
   font-weight: 400; 
   line-height: 1.5;
-    font-style: normal;
-    color: #434455;
+  font-style: normal;
+  color: #434455;
   flex-direction: row;
   font-size: 16px;
   line-height: 1.5;
