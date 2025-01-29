@@ -80,15 +80,17 @@ span.logo-black {
   align-items: center;
 }
 .studio {
-  color: #404bbf;
-  position: relative;
+  color: #2e2f42;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.studio::after {
+.current {
+  color: #404bbf;
+  position: relative;
+}
+.current::after {
   content: "";
   width: 100%;
   position: absolute;
@@ -99,9 +101,9 @@ span.logo-black {
   border-radius: 2px;
 }
 .studios {
-  color: #2e2f42;
   padding: 24px 0;
   display: block;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .studios:hover {
   color: #404bbf;
@@ -126,10 +128,10 @@ span.logo-black {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .mails {
   color: #434455;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .mails:hover {
   color: #404bbf;
@@ -181,7 +183,7 @@ span.logo-black {
   height: 56px;
   border: none;
   margin: 0 auto;
-  background-color: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .button:hover {
   background-color: #404bbf;
@@ -296,6 +298,7 @@ span.logo-black {
 .link-media {
   width: 40px;
   height: 40px;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .inst {
   width: 100%;
@@ -355,7 +358,7 @@ span.logo-black {
   gap: 24px;
   row-gap: 48px;
 }
-.list-port:hover {
+.list-portfolio:hover {
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
@@ -450,7 +453,6 @@ span.logo-white {
 .footer-link {
   width: 40px;
   height: 40px;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .inst-foot {
   width: 100%;
@@ -460,6 +462,7 @@ span.logo-white {
   display: flex;
   align-items: center;
   justify-content: center;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .inst-foot:hover {
   background-color: #31d0aa;
