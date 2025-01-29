@@ -181,6 +181,7 @@ span.logo-black {
   height: 56px;
   border: none;
   margin: 0 auto;
+  background-color: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .button:hover {
   background-color: #404bbf;
@@ -354,9 +355,11 @@ span.logo-black {
   gap: 24px;
   row-gap: 48px;
 }
-.list-portfolio :hover .text-portfolio {
+.list-port:hover {
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+}
+.list-portfolio :hover .text-portfolio {
   transform: translateY(0);
 }
 
@@ -444,16 +447,11 @@ span.logo-white {
   text-align: center;
   gap: 16px;
 }
-.link-barfoot {
-  display: flex;
-  gap: 16px;
-}
 .footer-link {
   width: 40px;
   height: 40px;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
 .inst-foot {
   width: 100%;
   height: 100%;
@@ -471,5 +469,5 @@ span.logo-white {
 }
 
 .link-socialfoot {
-  color: #f4f4fd;
+  fill: #f4f4fd;
 }
