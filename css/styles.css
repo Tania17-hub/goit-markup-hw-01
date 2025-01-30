@@ -157,6 +157,8 @@ span.logo-black {
   max-width: 1440px;
   background-repeat: no-repeat;
   background-color: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  margin: 0 auto;
+  width: 100%;
 }
 .effective-text {
   font-size: 56px;
@@ -294,6 +296,8 @@ span.logo-black {
   display: flex;
   justify-content: center;
   gap: 24px;
+  margin-top: 8px;
+  padding: 0 16px;
 }
 .link-media {
   width: 40px;
@@ -362,7 +366,7 @@ span.logo-black {
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
-.list-portfolio :hover .text-portfolio {
+.list-portfolio:hover .text-portfolio {
   transform: translateY(0);
 }
 
@@ -404,7 +408,6 @@ span.logo-black {
 }
 .foot {
   padding: 100px 0px;
-  margin-right: 120px;
 }
 .logo-footer {
   font-family: "Raleway", sans-serif;
@@ -417,6 +420,7 @@ span.logo-black {
   display: inline-block;
   gap: 0px;
   margin-bottom: 16px;
+  margin-right: 120px;
 }
 span.logo-white {
   color: #f4f4fd;
@@ -433,6 +437,8 @@ span.logo-white {
   margin-left: auto;
   display: block;
   align-items: center;
+  padding: 100px 0px;
+  margin-left: 120px;
 }
 .text-media {
   margin-bottom: 16px;
