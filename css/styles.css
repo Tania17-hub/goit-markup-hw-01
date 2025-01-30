@@ -397,9 +397,6 @@ span.logo-black {
 /*Footer*/
 .footer {
   background-color: #2e2f42;
-  display: flex;
-  align-items: center;
-  gap: 40px;
   flex-direction: row;
 }
 .footer-content {
@@ -407,6 +404,7 @@ span.logo-black {
   align-items: baseline;
 }
 .foot {
+  margin-right: 120px;
   padding: 100px 0px;
 }
 .logo-footer {
@@ -420,7 +418,6 @@ span.logo-black {
   display: inline-block;
   gap: 0px;
   margin-bottom: 16px;
-  margin-right: 120px;
 }
 span.logo-white {
   color: #f4f4fd;
@@ -434,11 +431,10 @@ span.logo-white {
 }
 .media {
   align-items: center;
-  margin-left: auto;
   display: block;
   align-items: center;
   padding: 100px 0px;
-  margin-left: 120px;
+  width: 208px;
 }
 .text-media {
   margin-bottom: 16px;
