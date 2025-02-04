@@ -589,9 +589,6 @@ span.logo-white {
 .input-wrap {
   margin-bottom: 8px;
 }
-.field-modal {
-  margin-bottom: 8px;
-}
 .button-close {
   background-color: #e7e9fc;
   border-radius: 50%;
@@ -697,7 +694,7 @@ span.logo-white {
   position: relative;
 }
 .field-modal {
-  margin-bottom: 16px;
+  margin-bottom: 8px;
 }
 .modal-comment {
   margin-bottom: 18px;
