@@ -53,8 +53,82 @@
             </li>
           </ul>
         </address>
+        <button class="burger-btn" type="button" data-menu-open>
+          <svg class="burger-icon" width="24" height="24">
+            <use href="./images/icons.svg#icon-burger-btn"></use>
+          </svg>
+        </button>
       </div>
     </header>
+    <!--mobile menu-->
+    <div class="mobile-menu">
+      <div class="container mobile-menu-container">
+        <button class="mobile-menu-close">
+          <svg class="close-menu" width="8" height="8">
+            <use href="./images/icons.svg#icon-close"></use>
+          </svg>
+        </button>
+        <nav class="mobile-list-nav">
+          <ul class="mobile-list-studio">
+            <li class="mobile-studio">
+              <a class="mobile-studios current" href="./index.html">Studio</a>
+            </li>
+            <li class="mobile-studio">
+              <a class="mobile-studios" href="">Portfolio</a>
+            </li>
+            <li class="mobile-studio">
+              <a class="mobile-studios" href="">Contacts</a>
+            </li>
+          </ul>
+        </nav>
+        <address class="mobile-addresss">
+          <ul class="mobile-list-contact">
+            <li class="mobile-mail">
+              <a href="mailto:info@devstudio.com" class="mobile-mails"
+                >info@devstudio.com</a
+              >
+            </li>
+            <li class="mobile-mail">
+              <a href="tel:+110001111111" class="mobile-mails"
+                >+11 (000) 111-11-11</a
+              >
+            </li>
+          </ul>
+        </address>
+        <div class="mobile-media">
+          <ul class="mobile-link-media">
+            <li class="mobile-link">
+              <a class="inst-mobile" href="">
+                <svg class="mobile-link-social" width="24" height="24">
+                  <use href="./images/icons.svg#icon-instagram"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="mobile-link">
+              <a class="inst-mobile" href="">
+                <svg class="mobile-link-social" width="24" height="24">
+                  <use href="./images/icons.svg#icon-twitter"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="mobile-link">
+              <a class="inst-mobile" href="">
+                <svg class="mobile-link-social" width="24" height="24">
+                  <use href="./images/icons.svg#icon-facebook"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="mobile-link">
+              <a class="inst-mobile" href="">
+                <svg class="mobile-link-social" width="24" height="24">
+                  <use href="./images/icons.svg#icon-linkedin"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
     <!--main page-->
     <main>
       <section class="effective">
@@ -65,7 +139,7 @@
       </section>
       <!--properties-->
       <section class="features">
-        <div class="container">
+        <div class="container feat">
           <h2 class="visually-hidden">features</h2>
           <ul class="feature-list">
             <li class="list-feature">
@@ -121,7 +195,7 @@
       </section>
       <!--team card-->
       <section class="team">
-        <div class="container">
+        <div class="container team-cont">
           <h2 class="list-our">Our Team</h2>
           <ul class="team-list">
             <li class="list-our-team">
@@ -479,6 +553,7 @@
         </div>
       </div>
     </footer>
+    <!-- modal-->
     <div class="backdrop is-open">
       <div class="modal">
         <button type="button" class="button-close">
