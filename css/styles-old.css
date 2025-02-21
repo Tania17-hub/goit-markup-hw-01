@@ -259,6 +259,44 @@ span.logo-black {
   position: relative;
   overflow: hidden;
 }
+.foot-top {
+    display: flex;
+  }
+  .footer.footer-content {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 72px;
+  }
+  .logo-footer {
+    text-align: left;
+  }
+  .text-media {
+    text-align: left;
+  }
+
+  .link-mediafoot {
+    justify-content: flex-start;
+  }
+  .footer-form {
+    flex-direction: row;
+    gap: 24px;
+    justify-content: flex-start;
+  }
+
+  .input-foot {
+    display: inline-block;
+    width: 264px;
+  }
+
+  .button-subscribe {
+    margin-left: 0;
+    margin-right: auto;
+  }
+}
+
+
+
 .text-portfolio {
   position: absolute;
   top: 0;
